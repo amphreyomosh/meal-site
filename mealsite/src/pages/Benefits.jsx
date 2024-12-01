@@ -5,7 +5,7 @@ const Benefits = () => {
   return (
     <div className="benefits-container">
       {/* Hero Section */}
-      <header className="hero-section">
+      <header className="hero-sectionw">
         <h1>The Benefits of Healthy Eating</h1>
         <p>Discover how maintaining a nutritious diet can transform your lifestyle, boost energy, and promote overall well-being.</p>
       </header>

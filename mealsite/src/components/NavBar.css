@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 20px;
+    padding: 50px 20px;
     color: black;
     background-color: white;
   }
@@ -17,8 +17,8 @@
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 80px;
-    margin-right: 180px;
+    gap: 60px;
+    margin-right: 160px;
     padding: 0;
   }
   
@@ -41,7 +41,8 @@
     color: #ffd700;
   }
   .contact-button {
-    transform: translate(100px, -10px);
+    transform: translate(115px, -10px);
+    
   }
   
   
@@ -52,7 +53,7 @@
     width: 160px;
     height: 40px;
     border-radius: 10px;
-    border: none;
+
   }
 
   

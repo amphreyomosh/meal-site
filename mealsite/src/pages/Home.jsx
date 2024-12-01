@@ -208,15 +208,21 @@ const Home = () => {
 
             <section className="image-gallery">
               <div className="images">
-                <img id="imagesone"
-                  src="https://plus.unsplash.com/premium_photo-1726138647192-5275bef08970?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RnJlc2glMjBpbmdyZWRpZW50c3xlbnwwfHwwfHx8MA%3D%3D"
-                  alt="Fresh ingredients"
-                />
-                <img id="imagestwo"
-                  src="https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVsaWNpb3VzbHklMjBwbGF0ZWQlMjBtZWFsfGVufDB8fDB8fHww"
-                  alt="Deliciously plated meal"
-                />
-                <img id="imagesthree"
+                <div className="divimage">
+                  {" "}
+                  <img
+                    id="imagesone"
+                    src="https://plus.unsplash.com/premium_photo-1726138647192-5275bef08970?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RnJlc2glMjBpbmdyZWRpZW50c3xlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Fresh ingredients"
+                  />
+                  <img
+                    id="imagestwo"
+                    src="https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVsaWNpb3VzbHklMjBwbGF0ZWQlMjBtZWFsfGVufDB8fDB8fHww"
+                    alt="Deliciously plated meal"
+                  />
+                </div>
+                <img
+                  id="imagesthree"
                   src="https://images.unsplash.com/photo-1484980972926-edee96e0960d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhbiUyMGZhbWlsaWVzJTIwZW5qb3lpbmclMjBhJTIwbWVhbCUyMHRvZ2V0aGVyfGVufDB8fDB8fHww"
                   alt="fresh meals"
                 />
