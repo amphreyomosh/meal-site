@@ -169,7 +169,7 @@ const Home = () => {
       <div className="main-container">
         <div className="tips">
           <p>
-            Great meals are not only about taste—they're also about nourishment.
+            Great meals are not only about taste, they're also about nourishment.
             Our expert nutrition tips help you make the best choices for your
             health without sacrificing flavor.
           </p>
@@ -193,7 +193,7 @@ const Home = () => {
           <section className="benefits">
             <h2>Why You'll Love Our Recipes</h2>
             <p className="benefits-text">
-              Meals are more than sustenance—they’re a celebration of
+              Meals are more than sustenance, they’re a celebration of
               creativity, connection, and well-being. Our recipes bring vibrancy
               to your kitchen, combining fresh ingredients, balanced nutrition,
               and bold flavors. Cooking becomes a joyful act of mindfulness,
