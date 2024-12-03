@@ -79,6 +79,7 @@
   @media (max-width: 768px) {
     .hamburger {
       display: flex;
+      margin-right: 10px ;
     }
   
     .nav-links {
@@ -87,12 +88,21 @@
       width: 100%;
       background-color: #333;
       position: fixed;
-      top: 60px;
+      top: 70px;
       left: 0;
-      gap: 15px;
+      gap: 10px;
       z-index: 1;
     }
-  
+    .contact-button {
+      transform: translateX(-5px);
+      
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-left: 10px;
+      transform: translateY(-5px);
+    }
     .nav-links.active {
       display: flex;
     }
@@ -112,6 +122,7 @@
       font-weight: bold;
       border-bottom: 2px solid white;
     }
+  
   }
   
   /* Styling for buttons */

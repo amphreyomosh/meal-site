@@ -169,9 +169,9 @@ const Home = () => {
       <div className="main-container">
         <div className="tips">
           <p>
-            Great meals are not only about taste, they're also about nourishment.
-            Our expert nutrition tips help you make the best choices for your
-            health without sacrificing flavor.
+            Great meals are not only about taste, they're also about
+            nourishment. Our expert nutrition tips help you make the best
+            choices for your health without sacrificing flavor.
           </p>
           <div>
             <p>
@@ -189,46 +189,48 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="content">
-          <section className="benefits">
-            <h2>Why You'll Love Our Recipes</h2>
-            <p className="benefits-text">
-              Meals are more than sustenance, they’re a celebration of
-              creativity, connection, and well-being. Our recipes bring vibrancy
-              to your kitchen, combining fresh ingredients, balanced nutrition,
-              and bold flavors. Cooking becomes a joyful act of mindfulness,
-              with dishes that energize your body and elevate your spirit.
-              Whether you’re exploring diverse cuisines, hosting loved ones, or
-              crafting a quick, nutritious meal, our guides make the process
-              seamless and exciting. By choosing our recipes, you embrace a
-              journey of delicious possibilities, where every bite nourishes not
-              only your health but also your relationships and sense of
-              accomplishment.
-            </p>
+        <div className="contentcard">
+          <div className="content">
+            <section className="benefits">
+              <h2>Why You'll Love Our Recipes</h2>
+              <p className="benefits-text">
+                Meals are more than sustenance, they’re a celebration of
+                creativity, connection, and well-being. Our recipes bring
+                vibrancy to your kitchen, combining fresh ingredients, balanced
+                nutrition, and bold flavors. Cooking becomes a joyful act of
+                mindfulness, with dishes that energize your body and elevate
+                your spirit. Whether you’re exploring diverse cuisines, hosting
+                loved ones, or crafting a quick, nutritious meal, our guides
+                make the process seamless and exciting. By choosing our recipes,
+                you embrace a journey of delicious possibilities, where every
+                bite nourishes not only your health but also your relationships
+                and sense of accomplishment.
+              </p>
 
-            <section className="image-gallery">
-              <div className="images">
-                <div className="divimage">
-                  {" "}
+              <section className="image-gallery">
+                <div className="images">
+                  <div className="divimage">
+                    {" "}
+                    <img
+                      id="imagesone"
+                      src="https://plus.unsplash.com/premium_photo-1726138647192-5275bef08970?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RnJlc2glMjBpbmdyZWRpZW50c3xlbnwwfHwwfHx8MA%3D%3D"
+                      alt="Fresh ingredients"
+                    />
+                    <img
+                      id="imagestwo"
+                      src="https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVsaWNpb3VzbHklMjBwbGF0ZWQlMjBtZWFsfGVufDB8fDB8fHww"
+                      alt="Deliciously plated meal"
+                    />
+                  </div>
                   <img
-                    id="imagesone"
-                    src="https://plus.unsplash.com/premium_photo-1726138647192-5275bef08970?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RnJlc2glMjBpbmdyZWRpZW50c3xlbnwwfHwwfHx8MA%3D%3D"
-                    alt="Fresh ingredients"
-                  />
-                  <img
-                    id="imagestwo"
-                    src="https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVsaWNpb3VzbHklMjBwbGF0ZWQlMjBtZWFsfGVufDB8fDB8fHww"
-                    alt="Deliciously plated meal"
+                    id="imagesthree"
+                    src="https://images.unsplash.com/photo-1484980972926-edee96e0960d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhbiUyMGZhbWlsaWVzJTIwZW5qb3lpbmclMjBhJTIwbWVhbCUyMHRvZ2V0aGVyfGVufDB8fDB8fHww"
+                    alt="fresh meals"
                   />
                 </div>
-                <img
-                  id="imagesthree"
-                  src="https://images.unsplash.com/photo-1484980972926-edee96e0960d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhbiUyMGZhbWlsaWVzJTIwZW5qb3lpbmclMjBhJTIwbWVhbCUyMHRvZ2V0aGVyfGVufDB8fDB8fHww"
-                  alt="fresh meals"
-                />
-              </div>
+              </section>
             </section>
-          </section>
+          </div>
         </div>
       </div>
     </div>
