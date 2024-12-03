@@ -94,7 +94,7 @@ const Footer = () => {
         <p>
           &copy; {new Date().getFullYear()} MealMaster. All rights reserved.
         </p>
-        <p>Designed with ❤️ by Humphrey Omondi</p>
+        <p>Designed by Humphrey Omondi</p>
       </div>
     </footer>
   );

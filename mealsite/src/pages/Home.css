@@ -38,7 +38,7 @@ body {
   color: black;
   font-family: "Arial";
   font-weight: 500;
-  background-color: yellow;
+  background-color: #ffd700;
 }
 
 .hero-content p {
@@ -134,7 +134,7 @@ body {
   margin-bottom: 10px;
   color: #333;
   #recipes {
-    background-color: yellow;
+    background-color: #ffd700;
     font-family: "Dancing Script";
     font-size: 5rem;
   }
@@ -354,7 +354,7 @@ body {
     color: black;
     font-family: "Arial";
     font-weight: 500;
-    background-color: yellow;
+    background-color: #ffd700;
   }
 
   .hero-content p {
@@ -437,7 +437,7 @@ body {
     font-size: 3.7rem;
     color: #333;
     #recipes {
-      background-color: yellow;
+      background-color: #ffd700;
       font-family: "Dancing Script";
       font-size: 5rem;
     }

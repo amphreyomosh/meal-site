@@ -23,7 +23,9 @@ function Contact() {
           errors={state.errors}
           className="validation-error"
         />{" "}
-        <label htmlFor="number"><b>Phone Number</b></label>
+        <label htmlFor="number">
+          <b>Phone Number</b>
+        </label>
         <input
           type="number"
           name="Phone-number"
@@ -49,9 +51,8 @@ function Contact() {
         </button>
       </form>
       <section className="contact-image">
-        <h2>Reach Us Out!</h2>
-        <p>Let's share ideas about food and more recipes</p>
-        <img id="contactimages"
+        <img
+          id="contactimages"
           src="https://images.unsplash.com/photo-1464454709131-ffd692591ee5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aWVhcyUyMGFib3V0JTIwZm9vZCUyMGFuZCUyMHJlY2lwZXxlbnwwfHwwfHx8MA%3D%3D"
           alt="berries"
         />

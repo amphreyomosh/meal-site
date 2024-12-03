@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .hero-sectionw {
   text-align: center;
   padding: 20px;
@@ -17,6 +20,7 @@
   position: relative;
   width: 400px;
   height: 300px;
+
 }
 
 .flower-image {
@@ -82,7 +86,7 @@
 .benefits-quiz-container {
   max-width: 1200px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
 }
@@ -96,7 +100,7 @@
 .benefits-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   justify-content: center;
 }
 
@@ -109,10 +113,10 @@
 
 .benefit-card {
   border-radius: 2px;
-  padding: 15px;
+  padding: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 500px;
-  margin: 30px;
+  margin: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -203,5 +207,169 @@
   .quiz-submit-button {
     width: 100%;
     text-align: center;
+  }
+  /*============================*/
+  .hero-sectionw {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .flower-effect-container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 50px 0;
+    padding-top: 50px 0;
+    overflow-x: hidden;
+  }
+
+  .image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    position: relative;
+  }
+
+  .flower-image {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+  }
+
+  /* Initial positions */
+  .image-center {
+    top: 15%;
+    left: 50%;
+    margin-top: 50px;
+    width: 150px;
+    height: 200px;
+    z-index: 2;
+    border-radius: 8px;
+    transform: translate(-50%, 0) scale(1.2);
+  }
+
+  .image-left {
+    top: 50%;
+    left: 10%;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 8px;
+    transform: translate(-50%, -20%) rotate(-15deg) scale(1.2);
+  }
+
+  .image-right {
+    top: 50%;
+    left: 70%;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 8px;
+    transform: translate(-50%, -20%) rotate(15deg) scale(1.2);
+  }
+
+  /* Blossom animation */
+  .flower-effect-container.blossom .image-center {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .flower-effect-container.blossom .image-left {
+    transform: translate(-50%, -80%) rotate(0deg) scale(1.5);
+    opacity: 1;
+  }
+
+  .flower-effect-container.blossom .image-right {
+    transform: translate(10%, -80%) rotate(0deg) scale(1.5);
+    opacity: 1;
+  }
+
+  /* Benefits Section */
+  .benefits-section {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  .benefits-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .benefits-column {
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .benefit-card {
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 330px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .benefit-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .benefit-card p {
+    margin: 5px 5px;
+  }
+
+  #picture {
+    width: 320px;
+    height: 320px;
+    margin: 5px;
+  }
+  .quiz-section {
+    margin-top: 40px;
+  }
+
+  .quiz-card {
+    border-radius: 10px;
+    padding: 20px;
+
+  }
+
+  .quiz-card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  .quiz-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 0;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+
+  .quiz-button:hover {
+    background: yellow;
+  }
+
+  .quiz-form {
+    margin-top: 20px;
+  }
+
+  .quiz-question {
+    margin-bottom: 15px;
   }
 }

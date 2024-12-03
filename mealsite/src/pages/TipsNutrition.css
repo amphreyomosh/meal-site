@@ -14,12 +14,12 @@
 
 .tips-nutrition-header h1 {
   font-size: 2.5rem;
-  color: black;
+  color: #333;
 }
 
 .tips-nutrition-header p {
   font-size: 1.1rem;
-  color: black;
+  color: #333;
 }
 
 /* Section Styling */
@@ -51,7 +51,7 @@
 }
 
 .nutrition-content h2 {
-  color: black;
+  color: #333;
   font-size: 1.8rem;
   margin-bottom: 15px;
 }
@@ -59,7 +59,7 @@
 .nutrition-content p {
   margin-bottom: 15px;
   line-height: 1.6;
-  color: black;
+  color: #333;
 }
 
 .nutrition-content ul {
@@ -83,17 +83,21 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .nutrition-section {
-    flex-direction: column;
-  }
-
+ 
+ .nutritionsec{
+  display: flex;
+  flex-direction: column;
+ }
   .nutrition-content,
   .nutrition-image {
     margin-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: -30px;
   }
 }
-
+.nutrition-image{
+  margin-top: 20px;
+  width: 100%;
+}
 @media (max-width: 480px) {
   .tips-nutrition-header h1 {
     font-size: 2rem;

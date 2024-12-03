@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px 20px;
-    color: black;
+    color: #333;
     background-color: white;
   }
   
@@ -27,7 +27,7 @@
   }
   
   .nav-links a {
-    color: black;
+    color: #333;
     text-decoration: none;
     transition: color 0.3s ease;
   }
@@ -43,12 +43,13 @@
   .contact-button {
     transform: translate(115px, -10px);
     
+    
   }
   
   
   .contact-button1 {
     margin-left: 100px;
-    color: white;
+    color: #333;
     background-color: #ffd700;
     width: 160px;
     height: 40px;
@@ -128,7 +129,7 @@
   /* Styling for buttons */
   .contact-button1 {
     background-color: #ffd700;;
-    color: white;
+    color: #333;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -138,5 +139,6 @@
   
   /* Add hover effect for buttons */
   .contact-button1:hover {
-    background-color: #ffd719;
+    background-color: #333;
+    color: #ffd700;
   }

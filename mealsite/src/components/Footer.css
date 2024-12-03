@@ -1,9 +1,9 @@
 
 .footer {
-    background-color: gray;
+    background-color: #ffd700;
     padding: 20px;
     text-align: center;
-    color: black;
+    color: #333;
     margin-top: 20px;
   }
   
@@ -44,14 +44,16 @@
   
   .footer-newsletter input {
     padding: 10px;
+    width: 190px;
     margin-right: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 5px;
+
   }
   
   .footer-newsletter button {
-    padding: 10px 20px;
-    background-color: #ff6f61;
+    padding: 10px 30px;
+    background-color: red;
     color: white;
     border: none;
     border-radius: 5px;
@@ -64,7 +66,7 @@
   
   .footer-bottom {
     font-size: 0.9rem;
-    color: black;
+    color: #333;
   }
   
   .footer-bottom p {

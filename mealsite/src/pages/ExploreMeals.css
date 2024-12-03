@@ -1,8 +1,11 @@
 /* General styles */
+.body{
+  overflow-x: hidden;
+}
 .explore-meals-container {
   font-family: "Arial", sans-serif;
   padding: 20px;
-  color: black;
+  color: #333;
 }
 
 /* Hero section */
@@ -16,12 +19,12 @@
 .hero-section h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
-  color: black;
+  color: #333;
 }
 
 .hero-section p {
   font-size: 1.2rem;
-  color: black;
+  color: #333;
 }
 
 /* Meal cards section */
@@ -50,14 +53,14 @@
 
 .meal-card h2 {
   font-size: 1.2rem;
-  color: black;
+  color: #333;
   margin: 10px 0;
 }
 
 .meal-card p {
   padding: 0 10px;
   font-size: 1rem;
-  color: #555;
+  color: #333;
 }
 
 .meal-card:hover {
@@ -74,25 +77,26 @@
 .detailsection {
   display: flex;
 }
-.exploresec{
-    gap: 20px;
+.exploresec {
+  gap: 20px;
 }
 .details-section h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #222;
+  color: #333;
 }
 
 .details-section p {
   font-size: 1.1rem;
   line-height: 1.2;
-  color: #555;
+  color: #333;
   margin-bottom: 15px;
 }
 
-#sectionimg{
-    width: 500px;
-    height: 500px;
+#sectionimg {
+  width: 500px;
+  height: 500px;
+  
 }
 
 /* Responsive design */
@@ -107,5 +111,38 @@
 
   .details-section {
     padding: 20px 10px;
+  }
+
+  /* Additional details section */
+  .details-section {
+    padding: 30px 2px;
+    text-align: left;
+    margin: 60px 0;
+  }
+  .detailsection {
+    display: flex;
+    flex-direction: column;
+  }
+  .exploresec {
+    gap: 20px;
+  }
+  .details-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .details-section p {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  #sectionimg {
+    margin-top: 20px;
+    width: 320px;
+    height: 320px;
+    overflow-x: hidden;
   }
 }
