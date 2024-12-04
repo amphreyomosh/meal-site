@@ -3,10 +3,8 @@ import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faInstagram,
   faTwitter,
   faGithub,
-  faTiktok,
   faWhatsapp,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -48,14 +46,6 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://www.instagram.com/its__hamphrey/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a
               href="https://x.com/harmoo530"
               target="_blank"
               rel="noopener noreferrer"
@@ -70,14 +60,6 @@ const Footer = () => {
               aria-label="GitHub"
             >
               <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <a
-              href="https://www.tiktok.com/@.harmo"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="TikTok"
-            >
-              <FontAwesomeIcon icon={faTiktok} />
             </a>
             <a
               href="https://wa.me/254115193497"
