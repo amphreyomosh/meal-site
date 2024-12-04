@@ -5,7 +5,10 @@ import {
   faFacebook,
   faInstagram,
   faTwitter,
-  faPinterest,
+  faGithub,
+  faTiktok,
+  faWhatsapp,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -36,15 +39,16 @@ const Footer = () => {
           <h4>Follow Us</h4>
           <div className="social-icons">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/river.happy.5/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
             >
               <FontAwesomeIcon icon={faFacebook} />
             </a>
+
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/its__hamphrey/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -52,7 +56,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a
-              href="https://www.twitter.com"
+              href="https://x.com/harmoo530"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter"
@@ -60,12 +64,36 @@ const Footer = () => {
               <FontAwesomeIcon icon={faTwitter} />
             </a>
             <a
-              href="https://www.pinterest.com"
+              href="https://github.com/amphreyomosh"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Pinterest"
+              aria-label="GitHub"
             >
-              <FontAwesomeIcon icon={faPinterest} />
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              href="https://www.tiktok.com/@.harmo"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+            >
+              <FontAwesomeIcon icon={faTiktok} />
+            </a>
+            <a
+              href="https://wa.me/254115193497"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/humphrey-odhiambo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
         </div>
