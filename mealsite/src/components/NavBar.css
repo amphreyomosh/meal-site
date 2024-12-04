@@ -42,8 +42,6 @@
   }
   .contact-button {
     transform: translate(115px, -10px);
-    
-    
   }
   
   
@@ -75,6 +73,79 @@
     background-color: red;
     border-radius: 2px;
   }
+   /*large screen*/
+   @media (min-width: 1024px){
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 20px;
+      color: #333;
+      background-color: white;
+    }
+    
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-left: 30px;
+      transform: translateY(-10px);
+    }
+    
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      margin-right: 2px;
+      padding: 0;
+    }
+    .contact-button {
+      transform: translate(30px, -10px);
+    }
+   }
+
+  /*at medium screen*/
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%; 
+        max-width: 1024px; 
+        margin: 0 auto; 
+        padding: 50px 20px; 
+        background-color: white; 
+    }
+    .logo {
+        font-size: 1.7rem;
+        margin-left: 10px; 
+    }
+    .nav-links {
+        display: flex;
+        gap: 20px; 
+        margin-right: 15px; 
+    }
+    .nav-links li {
+        font-size: .9rem;
+        text-align: center;
+    }
+    .contact-button {
+        transform: translate(20px, -8px); /* Fine-tune positioning */
+    }
+    .contact-button1 {  
+        color: white;
+        background-color: #ff9900;
+        margin-left: 20px;
+        width: 120px; /* Smaller for tablet screens */
+        height: 35px;
+        border-radius: 5px;
+    }
+    .hamburger {
+        display: none; /* Keep hamburger hidden for medium screens */
+    }
+}
+
+
 
 
   @media (max-width: 768px) {
@@ -128,7 +199,7 @@
   
   /* Styling for buttons */
   .contact-button1 {
-    background-color: #ffd700;;
+    background-color: #ffd700;
     color: #333;
     border: none;
     padding: 10px 20px;
